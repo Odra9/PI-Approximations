@@ -11,6 +11,6 @@ def reciprocalArctan(x):      #calculates the arctan(1/x) using the MacLaurin se
         
     return arctan
         
-piApprox = 16*reciprocalArctan(5) - 4*reciprocalArctan(239)     #pi/4 = 4atan(1/5)-atan(1/239)
+piApprox = 16*reciprocalArctan(5) - 4*reciprocalArctan(239)     #see README.md
 
 displayApprox(piApprox)
